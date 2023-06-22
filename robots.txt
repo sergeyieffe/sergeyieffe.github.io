@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.sergeyieffe.github.io/sitemap.xml
+Sitemap: https://www.sergeyieffe.com/sitemap.xml
