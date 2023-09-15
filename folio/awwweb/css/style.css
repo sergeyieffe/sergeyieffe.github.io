@@ -10,7 +10,6 @@ body {
 h1 {
 	color: #ff8400;
 	font-size: 195%;
-	font-weight: normal;
 	margin: 0.25em 0 0.35em;
 	line-height: normal;
 }
@@ -215,6 +214,7 @@ a img {
 .cool_link1 {
 	font-size: 190%;
 	margin-top: 1px;
+	font-weight: bold;
 }
 
 #cool_link2 {
