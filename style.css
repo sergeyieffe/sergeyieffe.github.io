@@ -3,7 +3,7 @@ body {
   margin: 0;
   height: 100%;
   font: 150% sans-serif;
-  color: #d1405a;
+  color: #d14084;
   cursor: default;
   -webkit-tap-highlight-color: transparent;
 }
@@ -15,7 +15,7 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column; */
-  border-bottom: 4px solid #d1405a;
+  border-bottom: 4px solid #d14084;
 } 
 
 header, main, footer {
