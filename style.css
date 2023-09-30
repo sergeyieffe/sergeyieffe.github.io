@@ -3,7 +3,7 @@ body {
   margin: 0;
   height: 100%;
   font: 150% sans-serif;
-  color: #d92b48;
+  color: #d1405a;
   cursor: default;
   -webkit-tap-highlight-color: transparent;
 }
@@ -15,7 +15,7 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column; */
-  border-bottom: 4px solid #d92b48;
+  border-bottom: 4px solid #d1405a;
 } 
 
 header, main, footer {
@@ -33,7 +33,7 @@ section {
 }
 
 a {
-  color: #d92b48;
+  color: #d1405a;
   font-weight: bolder
 }
 
