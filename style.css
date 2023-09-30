@@ -3,7 +3,7 @@ body {
   margin: 0;
   height: 100%;
   font: 150% sans-serif;
-  color: #d14084;
+  color: #ff2d8f;
   cursor: default;
   -webkit-tap-highlight-color: transparent;
 }
@@ -15,7 +15,7 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column; */
-  border-bottom: 4px solid #d14084;
+  border-bottom: 4px solid #ff2d8f;
 } 
 
 header, main, footer {
@@ -33,7 +33,7 @@ section {
 }
 
 a {
-  color: #d1405a;
+  color: #ff2d8f;
   font-weight: bolder
 }
 
@@ -46,7 +46,7 @@ a {
 }
 
 #logo {
-  color: #d92b48;
+  color: #ff2d8f;
   text-transform: lowercase;
   font-weight: normal;
   letter-spacing: -.025em;
