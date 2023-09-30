@@ -3,7 +3,7 @@ body {
   margin: 0;
   height: 100%;
   font: 150% sans-serif;
-  color: #d80729;
+  color: #d92b48;
   cursor: default;
   -webkit-tap-highlight-color: transparent;
 }
@@ -33,7 +33,8 @@ section {
 }
 
 a {
-  color: #ff6511;
+  color: #d92b48;
+  font-weight: bolder
 }
 
 .msg {
