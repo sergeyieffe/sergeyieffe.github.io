@@ -15,7 +15,6 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column; */
-  border-bottom: 4px solid #ff2d8f;
 } 
 
 header, main, footer {
