@@ -2,4 +2,8 @@ body {
  font-size: 1.65em;
  height: 100vw
 } 
- 
+
+a {
+ text-decoration: none
+} 
+
