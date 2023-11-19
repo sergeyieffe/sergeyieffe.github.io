@@ -1,7 +1,8 @@
 body {
   font: 1.65em sans-serif;
   height: 100vw;
-  background: top center repeat-x url('image1.gif')
+  background: top center repeat-x url('image1.gif');
+  background-size: cover 
 } 
 
 a {
