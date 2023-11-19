@@ -1,9 +1,10 @@
 body {
- font: 1.65em sans-serif;
- height: 100vw
+  font: 1.65em sans-serif;
+  height: 100vw;
+  background: top center repeat-x url('image1.gif')
 } 
 
 a {
- text-decoration: none
+  text-decoration: none
 } 
 
