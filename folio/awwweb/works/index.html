@@ -3,64 +3,115 @@
 <head>
 	<title>Works</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-	<link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="../css/lightbox.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="../css/portfolio.css" />
-	<link rel="SHORTCUT ICON" type="image/x-icon" href="../favicon.ico" />
-	<script type="text/javascript" src="../scripts/popup.js"></script>
-	<script type="text/javascript" src="../scripts/lightbox.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="../../css/style.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="../../css/lightbox.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="../../css/portfolio.css" />
+	<link rel="SHORTCUT ICON" type="image/x-icon" href="../../favicon.ico" />
+	<script type="text/javascript" src="../../scripts/popup.js"></script>
+	<script type="text/javascript" src="../../scripts/toggle.js"></script>
+	<script type="text/javascript" src="../../scripts/lightbox.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 </head>
 <body>
 <center>
-	<div id="header">
-		<div id="logo">
-			<a href="../home.html"><img src="../images/x.gif" width="219" height="139" alt="Altervision Media"/></a>
+	<div id="box">
+		<div id="header">
+			<div id="logo">
+				<a href="../../home.html"><img src="../../images/x.gif" width="240" height="130" alt="Altervision Media" /></a>
+			</div>
+			<ul id="nav">
+				<li><a href="../../home.html">Home</a></li>
+				<li><a href="../../about">About us</a></li>
+				<li><a href="../../services/">Services</a></li>
+				<li><a href="../../works/">Works</a></li>
+				<li><a href="../../contact/">Contact</a></li>
+			</ul>
 		</div>
-		<ul id="nav">
-			<li><a href="../home.html">Home</a></li>
-			<li><a href="../about">About us</a></li>
-			<li><a href="../services/">Services</a></li>
-			<li><span>Works</span></li>
-			<li><a href="../contact/">Contact</a></li>
-		</ul>
-	</div>
-	<div id="content">
-		<script>
-			$(function () {
-    			var parent = $("#folio");
-			    var divs = parent.children();
-			    while (divs.length) {
-			        parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
-			    }
-			});
-		</script>	
-		<h1>Works</h1>
-		<div id="folio">	
-			<div><a href="websites/w_item_4.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_1.gif"/></a></div>
-			<div><a href="websites/w_item_3.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_5.gif"/></a></div>
-			<div><a href="websites/w_item_1.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_6.gif"/></a></div>				
-			<div><a href="websites/w_item_10.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_3.gif"/></a></div>
-			<div><a href="websites/w_item_6.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_9.gif"/></a></div>
-			<div><a href="websites/w_item_2.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_10.gif"/></a></div>
-			<div><a href="websites/w_item_8.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_12.gif"/></a></div>
-			<div><a href="websites/w_item_9.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_13.gif"/></a></div>
-			<div><a href="websites/w_item_16.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_16.gif"/></a></div>
-			<div><a href="collateral/img1.jpg" rel="lightbox"><img src="collateral/thumbs/img3.gif"/></a></div>
-			<div><a href="websites/w_item_7.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_2.gif"/></a></div>
-			<div><a href="websites/w_item_12.jpg" rel="lightbox"><img src="websites/thumbs/w_thmb_8.gif"/></a></div>
-		</div><br style="clear:both; padding-bottom:20px"/><br/><br/>
-		<a id="cool_link2" href="all/">More works</a>
-	</div>
+		<div id="content">
+			<h1>Works</h1>
+			<table class="phead" cellpadding="0" cellspacing="0"><tr>
+				<td class="col1"><p>Websites</p></td>
+				<td class="col2"><a style="display:none;" href="#all" onclick="toggle('toggle_websites')">View all</a></td>
+			</tr></table>
+			<script>
+				$(function () {
+    					var parent1 = $(".rand1");
+			    		var divs1 = parent1.children();
+			    		while (divs1.length) {
+			        		parent1.append(divs1.splice(Math.floor(Math.random() * divs1.length), 1)[0]);
+			    		}
+				});
+			</script>			
+			<div class="portfolio rand1">
+				<div><a href="../websites/w_item_4.jpg" rel="lightbox"><img src="../websites/thumbs/w_thmb_1.gif" width="156" height="126" alt="" /></a></div>
+				<div><a href="../websites/w_item_10.jpg" rel="lightbox"><img src="../websites/thumbs/w_thmb_3.gif" width="156" height="126" alt="" /></a></div>
+				<div><a href="../websites/w_item_3.jpg" rel="lightbox"><img src="../websites/thumbs/w_thmb_5.gif" width="156" height="126" alt="" /></a></div>			
+				<div><a href="../websites/w_item_1.jpg" rel="lightbox"><img src="../websites/thumbs/w_thmb_6.gif" width="156" height="126" alt="" /></a></div>
+				<div><a href="../websites/w_item_12.jpg" rel="lightbox"><img src="../websites/thumbs/w_thmb_8.gif" width="156" height="126" alt="" /></a></div>
+				<div><a href="../websites/w_item_6.jpg" rel="lightbox"><img src="../websites/thumbs/w_thmb_9.gif" width="156" height="126" alt="" /></a></div>
+				<div><a href="../websites/w_item_5.jpg" rel="lightbox"><img src="../websites/thumbs/w_thmb_11.gif" width="156" height="126" alt="" /></a></div>
+				<div><a href="../websites/w_item_8.jpg" rel="lightbox"><img src="../websites/thumbs/w_thmb_12.gif" width="156" height="126" alt="" /></a></div>
+				<div><a href="../websites/w_item_9.jpg" rel="lightbox"><img src="../websites/thumbs/w_thmb_13.gif" width="156" height="126" alt="" /></a></div>				
+				<div><a href="../websites/w_item_15.jpg" rel="lightbox"><img src="../websites/thumbs/w_thmb_14.gif" width="156" height="126" alt="" /></a></div>
+				<div><a href="../websites/w_item_13.jpg" rel="lightbox"><img src="../websites/thumbs/w_thmb_15.gif" width="156" height="126" alt="" /></a></div>
+				<div><a href="../websites/w_item_16.jpg" rel="lightbox"><img src="../websites/thumbs/w_thmb_16.gif" width="156" height="126" alt="" /></a></div>
+			</div>
+			<br style="clear:both" />
+			<table class="phead" cellpadding="0" cellspacing="0"><tr>
+				<td class="col1"><p>Logos</p></td>
+				<td class="col2"><a href="#all" style="font-weight:bold;" onclick="toggle('toggle_logotypes')">View all</a></td>
+			</tr></table>
+				<script>
+					$(function () {
+    						var parent2 = $(".rand2");
+			    			var divs2 = parent2.children().not("#toggle_logotypes");
+			    			while (divs2.length) {
+			        				parent2.append(divs2.splice(Math.floor(Math.random() * divs2.length), 1)[0]);
+			    			}
+					});
+				</script>			
+			<div class="portfolio rand2">				
+				<div><img src="../logotypes/thumbs/img1.gif" width="156" height="126" alt="" /></div>
+				<div><img src="../logotypes/thumbs/img2.gif" width="156" height="126" alt="" /></div>
+				<div><img src="../logotypes/thumbs/img3.gif" width="156" height="126" alt="" /></div>
+				<div><img src="../logotypes/thumbs/img4.gif" width="156" height="126" alt="" /></div>		
+				<div id="toggle_logotypes" style="display:none">
+					<div><img src="../logotypes/thumbs/img5.gif" width="156" height="126" alt="" /></div>
+					<div><img src="../logotypes/thumbs/img6.gif" width="156" height="126" alt="" /></div>
+					<div><img src="../logotypes/thumbs/img7.gif" width="156" height="126" alt="" /></div>
+					<div><img src="../logotypes/thumbs/img8.gif" width="156" height="126" alt="" /></div>			
+				</div>
+			</div>
+			<br style="clear:both" />
+			<table class="phead" cellpadding="0" cellspacing="0"><tr>
+				<td class="col1"><p>Stationery</p></td>
+			</tr></table>
+				<script>
+					$(function () {
+    						var parent3 = $(".rand3");
+			    			var divs3 = parent3.children();
+			    			while (divs3.length) {
+			        			parent3.append(divs3.splice(Math.floor(Math.random() * divs3.length), 1)[0]);
+			    			}
+					});
+				</script>			
+			<div class="portfolio rand3">					
+				<div><a href="../collateral/img2.jpg" rel="lightbox"><img src="../collateral/thumbs/img2.gif" width="156" height="126" alt="" /></a></div>
+				<div><img src="../collateral/thumbs/img1.gif" width="156" height="126" alt="" /></div>
+				<div><a href="../collateral/img1.jpg" rel="lightbox"><img src="../collateral/thumbs/img3.gif" width="156" height="126" alt="" /></a></div>
+				<div><img src="../collateral/thumbs/img4.gif" width="156" height="126" alt="" /></div>				
+			</div>
+			<br style="clear:both" />
+		</div>
 	<div id="footer">
 		<ul class="fmenu">
-			<li><a href="../contact/">Contact</a></li>
+			<li><a href="../../contact/">Contact</a></li>
 			<li><span>|</span></li>
 			<li><a href="#">Privacy</a></li>
 			<li><span>|</span></li>
 			<li><a href="#">Site Map</a></li>
 			<li><span>|</span></li>
-			<li><img class="ico" src="../images/ico_rss.gif" width="16" height="16" alt="" /><a href="#">RSS</a></li>
+			<li><img class="ico" src="../../images/ico_rss.gif" width="16" height="16" alt="" /><a href="#">RSS</a></li>
 		</ul>
 		<p>
 			<a href="#">XHTML</a>
@@ -68,6 +119,5 @@
 		</p>
 	</div>
 </center>
-<a id="div1" name="all"></a>
 </body>
 </html>
